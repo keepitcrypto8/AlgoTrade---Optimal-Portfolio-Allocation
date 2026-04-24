@@ -1,0 +1,30 @@
+# Ambiente virtual — nunca commitar
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.Python
+
+# Dados — são regenerados automaticamente
+data/raw/
+data/processed/
+
+# Segredos — API keys, credenciais
+.env
+*.env
+
+# Outputs de backtest — grandes, regeneráveis
+results/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
